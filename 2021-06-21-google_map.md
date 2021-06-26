@@ -1,7 +1,7 @@
 ```python
 import googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyB7Lq1eQOfGMZuzKYBw9EnPQf1eq0GkQ0I')
+gmaps = googlemaps.Client(key='*****')
 geocode_result = gmaps.geocode(('카츠성수'), language='ko')
 print(geocode_result)
 ```
@@ -13,7 +13,7 @@ print(geocode_result)
 ```python
 import googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyB7Lq1eQOfGMZuzKYBw9EnPQf1eq0GkQ0I')
+gmaps = googlemaps.Client(key='*****')
 reverse_geocode_result = gmaps.reverse_geocode((37.54794204380073, 127.07460710236217), language='ko')
 print(reverse_geocode_result)
 ```
@@ -25,7 +25,7 @@ print(reverse_geocode_result)
 ```python
 import googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyB7Lq1eQOfGMZuzKYBw9EnPQf1eq0GkQ0I')
+gmaps = googlemaps.Client(key='*****')
 geocode_result = gmaps.geocode(('레딕스'), language='ko')
 print(geocode_result[0])
 ```
